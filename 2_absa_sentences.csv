@@ -1,0 +1,401 @@
+sentence_id,event_id,symbol,target,date,source,sentence,aspect,sentiment_label,sentiment_score,split
+S0001,E001,NWSY,Northwind Systems,2022-04-04,call,"Northwind Systems revenue fell 3% year over year, missing analyst estimates.",revenue,negative,-0.7,test
+S0002,E001,NWSY,Northwind Systems,2022-04-04,call,Gross margin contracted 2.4 percentage points to 45% on higher input costs.,margins,negative,-0.56,test
+S0003,E001,NWSY,Northwind Systems,2022-04-04,call,"Customer demand softened, with order backlog down 23%.",demand,negative,-0.65,test
+S0004,E001,NWSY,Northwind Systems,2022-04-04,call,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.5,test
+S0005,E001,NWSY,Northwind Systems,2022-04-04,call,"Northwind Systems revenue fell 10% year over year, missing analyst estimates.",revenue,negative,-0.58,test
+S0006,E001,NWSY,Northwind Systems,2022-04-04,call,Net income dropped 17% on rising expenses and a one-time charge.,margins,negative,-0.6,test
+S0007,E002,NWSY,Northwind Systems,2022-09-16,call,Net sales rose 19% to $2.5 billion on strong product uptake.,revenue,positive,0.49,val
+S0008,E002,NWSY,Northwind Systems,2022-09-16,call,Northwind Systems said efficiency programs lifted profit margins above expectations.,margins,positive,0.41,val
+S0009,E002,NWSY,Northwind Systems,2022-09-16,call,"Northwind Systems saw rising demand across all regions, with unit volumes up 5%.",demand,positive,0.47,val
+S0010,E002,NWSY,Northwind Systems,2022-09-16,call,Management maintained its outlook for the coming quarter.,guidance,neutral,0.05,val
+S0011,E002,NWSY,Northwind Systems,2022-09-16,call,Subscriber additions topped expectations as demand picked up.,demand,positive,0.79,val
+S0012,E002,NWSY,Northwind Systems,2022-09-16,call,Northwind Systems lifted its annual profit forecast above analyst estimates.,guidance,positive,0.56,val
+S0013,E003,NWSY,Northwind Systems,2023-03-06,call,Northwind Systems reported its first drop in annual revenue in five years.,revenue,negative,-0.41,train
+S0014,E003,NWSY,Northwind Systems,2023-03-06,call,Northwind Systems said efficiency programs lifted profit margins above expectations.,margins,positive,0.63,train
+S0015,E003,NWSY,Northwind Systems,2023-03-06,call,Management noted demand trends vary by region.,demand,neutral,-0.09,train
+S0016,E003,NWSY,Northwind Systems,2023-03-06,call,Management maintained its outlook for the coming quarter.,guidance,neutral,0.01,train
+S0017,E003,NWSY,Northwind Systems,2023-03-06,call,Northwind Systems cut its full-year revenue guidance to $3.7 billion.,guidance,negative,-0.79,train
+S0018,E003,NWSY,Northwind Systems,2023-03-06,call,"Northwind Systems saw rising demand across all regions, with unit volumes up 13%.",demand,positive,0.76,train
+S0019,E004,NWSY,Northwind Systems,2023-08-25,call,"Northwind Systems posted record revenue for the quarter, up 17% from a year earlier.",revenue,positive,0.44,train
+S0020,E004,NWSY,Northwind Systems,2023-08-25,call,Northwind Systems warned that pricing pressure is squeezing profit margins.,margins,negative,-0.74,train
+S0021,E004,NWSY,Northwind Systems,2023-08-25,call,"Customer demand remained strong, with order backlog up 4%.",demand,positive,0.82,train
+S0022,E004,NWSY,Northwind Systems,2023-08-25,call,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.5,train
+S0023,E004,NWSY,Northwind Systems,2023-08-25,call,Northwind Systems lifted its annual profit forecast above analyst estimates.,guidance,positive,0.77,train
+S0024,E004,NWSY,Northwind Systems,2023-08-25,call,Northwind Systems raised its full-year revenue guidance to $7.9 billion.,guidance,positive,0.71,train
+S0025,E005,NWSY,Northwind Systems,2022-10-25,news,"Quarterly revenue beat consensus by 0.7%, driven by new customer wins.",revenue,positive,0.53,val
+S0026,E005,NWSY,Northwind Systems,2022-10-25,news,Net income rose 25% as expenses stayed under control.,margins,positive,0.5,val
+S0027,E005,NWSY,Northwind Systems,2022-10-25,news,Subscriber additions topped expectations as demand picked up.,demand,positive,0.6,val
+S0028,E005,NWSY,Northwind Systems,2022-10-25,news,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.84,val
+S0029,E006,NWSY,Northwind Systems,2022-12-28,news,"Northwind Systems saw rising demand across all regions, with unit volumes up 4%.",demand,positive,0.47,val
+S0030,E006,NWSY,Northwind Systems,2022-12-28,news,Northwind Systems raised its full-year revenue guidance to $6.5 billion.,guidance,positive,0.89,val
+S0031,E006,NWSY,Northwind Systems,2022-12-28,news,Gross margin contracted 2.1 percentage points to 24% on higher input costs.,margins,negative,-0.88,val
+S0032,E006,NWSY,Northwind Systems,2022-12-28,news,Net sales rose 16% to $7.7 billion on strong product uptake.,revenue,positive,0.9,val
+S0033,E007,NWSY,Northwind Systems,2023-06-29,news,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.61,train
+S0034,E007,NWSY,Northwind Systems,2023-06-29,news,Northwind Systems said customer demand was consistent with seasonal patterns.,demand,neutral,-0.1,train
+S0035,E007,NWSY,Northwind Systems,2023-06-29,news,"Quarterly revenue beat consensus by 0.8%, driven by new customer wins.",revenue,positive,0.89,train
+S0036,E007,NWSY,Northwind Systems,2023-06-29,news,Net income dropped 6% on rising expenses and a one-time charge.,margins,negative,-0.87,train
+S0037,E008,NWSY,Northwind Systems,2023-04-06,news,"Northwind Systems reported revenue growth of 10% year over year, ahead of analyst expectations.",revenue,positive,0.43,train
+S0038,E008,NWSY,Northwind Systems,2023-04-06,news,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,0.05,train
+S0039,E008,NWSY,Northwind Systems,2023-04-06,news,Management discussed cost trends in its prepared remarks.,margins,neutral,0.07,train
+S0040,E008,NWSY,Northwind Systems,2023-04-06,news,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.7,train
+S0041,E009,HLPH,Helio Pharma,2022-04-04,call,"Helio Pharma reported quarterly revenue of $3.8 billion, in line with the prior quarter.",revenue,neutral,0.03,train
+S0042,E009,HLPH,Helio Pharma,2022-04-04,call,Net income rose 16% as expenses stayed under control.,margins,positive,0.55,train
+S0043,E009,HLPH,Helio Pharma,2022-04-04,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.49,train
+S0044,E009,HLPH,Helio Pharma,2022-04-04,call,Management maintained its outlook for the coming quarter.,guidance,neutral,0.08,train
+S0045,E009,HLPH,Helio Pharma,2022-04-04,call,Net sales rose 10% to $1.8 billion on strong product uptake.,revenue,positive,0.83,train
+S0046,E009,HLPH,Helio Pharma,2022-04-04,call,Helio Pharma reaffirmed its full-year guidance.,guidance,neutral,-0.06,train
+S0047,E010,HLPH,Helio Pharma,2022-09-13,call,Net sales declined 10% to $6.4 billion as volumes weakened.,revenue,negative,-0.82,val
+S0048,E010,HLPH,Helio Pharma,2022-09-13,call,Net income rose 20% as expenses stayed under control.,margins,positive,0.48,val
+S0049,E010,HLPH,Helio Pharma,2022-09-13,call,Helio Pharma said customer demand was consistent with seasonal patterns.,demand,neutral,-0.08,val
+S0050,E010,HLPH,Helio Pharma,2022-09-13,call,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.66,val
+S0051,E010,HLPH,Helio Pharma,2022-09-13,call,Management discussed cost trends in its prepared remarks.,margins,neutral,-0.03,val
+S0052,E010,HLPH,Helio Pharma,2022-09-13,call,Net sales declined 25% to $1.5 billion as volumes weakened.,revenue,negative,-0.53,val
+S0053,E011,HLPH,Helio Pharma,2023-02-28,call,Helio Pharma reported its first drop in annual revenue in five years.,revenue,negative,-0.8,train
+S0054,E011,HLPH,Helio Pharma,2023-02-28,call,Operating margin fell to 41% as wage and freight costs climbed.,margins,negative,-0.66,train
+S0055,E011,HLPH,Helio Pharma,2023-02-28,call,"Customer demand remained strong, with order backlog up 25%.",demand,positive,0.88,train
+S0056,E011,HLPH,Helio Pharma,2023-02-28,call,Management expects slower growth next quarter and lowered its outlook.,guidance,negative,-0.85,train
+S0057,E011,HLPH,Helio Pharma,2023-02-28,call,Gross margin contracted 2.1 percentage points to 33% on higher input costs.,margins,negative,-0.82,train
+S0058,E011,HLPH,Helio Pharma,2023-02-28,call,"Customer demand remained strong, with order backlog up 16%.",demand,positive,0.76,train
+S0059,E012,HLPH,Helio Pharma,2023-08-29,call,Net sales rose 10% to $8.3 billion on strong product uptake.,revenue,positive,0.68,train
+S0060,E012,HLPH,Helio Pharma,2023-08-29,call,Net income rose 10% as expenses stayed under control.,margins,positive,0.43,train
+S0061,E012,HLPH,Helio Pharma,2023-08-29,call,"Helio Pharma saw rising demand across all regions, with unit volumes up 14%.",demand,positive,0.77,train
+S0062,E012,HLPH,Helio Pharma,2023-08-29,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.57,train
+S0063,E012,HLPH,Helio Pharma,2023-08-29,call,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.78,train
+S0064,E012,HLPH,Helio Pharma,2023-08-29,call,Helio Pharma reaffirmed its full-year guidance.,guidance,neutral,-0.03,train
+S0065,E013,HLPH,Helio Pharma,2022-03-11,news,Helio Pharma raised its full-year revenue guidance to $6.8 billion.,guidance,positive,0.77,train
+S0066,E013,HLPH,Helio Pharma,2022-03-11,news,Gross margin expanded 3.1 percentage points to 15% on lower input costs.,margins,positive,0.7,train
+S0067,E013,HLPH,Helio Pharma,2022-03-11,news,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.66,train
+S0068,E013,HLPH,Helio Pharma,2022-03-11,news,"Helio Pharma reported quarterly revenue of $8.8 billion, in line with the prior quarter.",revenue,neutral,-0.05,train
+S0069,E014,HLPH,Helio Pharma,2023-05-16,news,Helio Pharma said efficiency programs lifted profit margins above expectations.,margins,positive,0.46,train
+S0070,E014,HLPH,Helio Pharma,2023-05-16,news,"Customer demand remained strong, with order backlog up 25%.",demand,positive,0.41,train
+S0071,E014,HLPH,Helio Pharma,2023-05-16,news,Helio Pharma raised its full-year revenue guidance to $3.4 billion.,guidance,positive,0.72,train
+S0072,E014,HLPH,Helio Pharma,2023-05-16,news,"Helio Pharma reported revenue growth of 16% year over year, ahead of analyst expectations.",revenue,positive,0.73,train
+S0073,E015,HLPH,Helio Pharma,2023-10-17,news,Net income dropped 13% on rising expenses and a one-time charge.,margins,negative,-0.85,train
+S0074,E015,HLPH,Helio Pharma,2023-10-17,news,"Helio Pharma reported revenue growth of 15% year over year, ahead of analyst expectations.",revenue,positive,0.75,train
+S0075,E015,HLPH,Helio Pharma,2023-10-17,news,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.49,train
+S0076,E015,HLPH,Helio Pharma,2023-10-17,news,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.79,train
+S0077,E016,HLPH,Helio Pharma,2023-12-21,news,"Customer demand softened, with order backlog down 11%.",demand,negative,-0.67,test
+S0078,E016,HLPH,Helio Pharma,2023-12-21,news,"Helio Pharma posted record revenue for the quarter, up 25% from a year earlier.",revenue,positive,0.86,test
+S0079,E016,HLPH,Helio Pharma,2023-12-21,news,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.68,test
+S0080,E016,HLPH,Helio Pharma,2023-12-21,news,Gross margin expanded 2.1 percentage points to 40% on lower input costs.,margins,positive,0.46,test
+S0081,E017,BLRT,Brightline Retail,2022-04-06,call,Net sales rose 15% to $3.5 billion on strong product uptake.,revenue,positive,0.46,test
+S0082,E017,BLRT,Brightline Retail,2022-04-06,call,Net income rose 17% as expenses stayed under control.,margins,positive,0.73,test
+S0083,E017,BLRT,Brightline Retail,2022-04-06,call,Brightline Retail said customer demand was consistent with seasonal patterns.,demand,neutral,-0.04,test
+S0084,E017,BLRT,Brightline Retail,2022-04-06,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.57,test
+S0085,E017,BLRT,Brightline Retail,2022-04-06,call,"Quarterly revenue beat consensus by 0.6%, driven by new customer wins.",revenue,positive,0.85,test
+S0086,E017,BLRT,Brightline Retail,2022-04-06,call,"Brightline Retail revenue fell 22% year over year, missing analyst estimates.",revenue,negative,-0.54,test
+S0087,E018,BLRT,Brightline Retail,2022-09-20,call,Net sales rose 17% to $7.2 billion on strong product uptake.,revenue,positive,0.62,train
+S0088,E018,BLRT,Brightline Retail,2022-09-20,call,Operating margin improved to 17% as cost cuts took effect.,margins,positive,0.73,train
+S0089,E018,BLRT,Brightline Retail,2022-09-20,call,Brightline Retail said customer demand was consistent with seasonal patterns.,demand,neutral,-0.05,train
+S0090,E018,BLRT,Brightline Retail,2022-09-20,call,Management maintained its outlook for the coming quarter.,guidance,neutral,0.03,train
+S0091,E018,BLRT,Brightline Retail,2022-09-20,call,Subscriber additions topped expectations as demand picked up.,demand,positive,0.43,train
+S0092,E018,BLRT,Brightline Retail,2022-09-20,call,Management noted demand trends vary by region.,demand,neutral,-0.08,train
+S0093,E019,BLRT,Brightline Retail,2023-03-15,call,"Quarterly revenue beat consensus by 1.2%, driven by new customer wins.",revenue,positive,0.57,train
+S0094,E019,BLRT,Brightline Retail,2023-03-15,call,"Operating margin was 33%, little changed from the previous quarter.",margins,neutral,-0.04,train
+S0095,E019,BLRT,Brightline Retail,2023-03-15,call,Brightline Retail said customer demand was consistent with seasonal patterns.,demand,neutral,-0.09,train
+S0096,E019,BLRT,Brightline Retail,2023-03-15,call,Brightline Retail raised its full-year revenue guidance to $2.6 billion.,guidance,positive,0.52,train
+S0097,E019,BLRT,Brightline Retail,2023-03-15,call,Management expects slower growth next quarter and lowered its outlook.,guidance,negative,-0.77,train
+S0098,E019,BLRT,Brightline Retail,2023-03-15,call,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.59,train
+S0099,E020,BLRT,Brightline Retail,2023-08-23,call,Brightline Retail reported its first drop in annual revenue in five years.,revenue,negative,-0.67,train
+S0100,E020,BLRT,Brightline Retail,2023-08-23,call,Gross margin contracted 1.6 percentage points to 31% on higher input costs.,margins,negative,-0.9,train
+S0101,E020,BLRT,Brightline Retail,2023-08-23,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.85,train
+S0102,E020,BLRT,Brightline Retail,2023-08-23,call,Brightline Retail reaffirmed its full-year guidance.,guidance,neutral,-0.08,train
+S0103,E020,BLRT,Brightline Retail,2023-08-23,call,Net sales rose 17% to $7.9 billion on strong product uptake.,revenue,positive,0.67,train
+S0104,E020,BLRT,Brightline Retail,2023-08-23,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.87,train
+S0105,E021,BLRT,Brightline Retail,2023-07-13,news,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.43,val
+S0106,E021,BLRT,Brightline Retail,2023-07-13,news,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.92,val
+S0107,E021,BLRT,Brightline Retail,2023-07-13,news,Operating margin improved to 40% as cost cuts took effect.,margins,positive,0.88,val
+S0108,E021,BLRT,Brightline Retail,2023-07-13,news,"Brightline Retail reported revenue growth of 16% year over year, ahead of analyst expectations.",revenue,positive,0.46,val
+S0109,E022,BLRT,Brightline Retail,2023-02-27,news,"Quarterly revenue beat consensus by 3.1%, driven by new customer wins.",revenue,positive,0.41,train
+S0110,E022,BLRT,Brightline Retail,2023-02-27,news,Net income dropped 20% on rising expenses and a one-time charge.,margins,negative,-0.56,train
+S0111,E022,BLRT,Brightline Retail,2023-02-27,news,The company will provide updated guidance at its investor day.,guidance,neutral,-0.1,train
+S0112,E022,BLRT,Brightline Retail,2023-02-27,news,"Brightline Retail saw rising demand across all regions, with unit volumes up 22%.",demand,positive,0.61,train
+S0113,E023,BLRT,Brightline Retail,2022-08-16,news,Net income dropped 4% on rising expenses and a one-time charge.,margins,negative,-0.7,test
+S0114,E023,BLRT,Brightline Retail,2022-08-16,news,Brightline Retail raised its full-year revenue guidance to $8.2 billion.,guidance,positive,0.42,test
+S0115,E023,BLRT,Brightline Retail,2022-08-16,news,"Net sales were $2.5 billion, broadly flat versus last year.",revenue,neutral,0.08,test
+S0116,E023,BLRT,Brightline Retail,2022-08-16,news,Subscriber additions topped expectations as demand picked up.,demand,positive,0.62,test
+S0117,E024,BLRT,Brightline Retail,2023-04-17,news,Brightline Retail said efficiency programs lifted profit margins above expectations.,margins,positive,0.48,train
+S0118,E024,BLRT,Brightline Retail,2023-04-17,news,"Net sales were $6.6 billion, broadly flat versus last year.",revenue,neutral,-0.06,train
+S0119,E024,BLRT,Brightline Retail,2023-04-17,news,Subscriber additions topped expectations as demand picked up.,demand,positive,0.6,train
+S0120,E024,BLRT,Brightline Retail,2023-04-17,news,Brightline Retail lifted its annual profit forecast above analyst estimates.,guidance,positive,0.42,train
+S0121,E025,CBEN,Cobalt Energy,2022-03-15,call,"Quarterly revenue beat consensus by 2.4%, driven by new customer wins.",revenue,positive,0.44,train
+S0122,E025,CBEN,Cobalt Energy,2022-03-15,call,Net income rose 20% as expenses stayed under control.,margins,positive,0.7,train
+S0123,E025,CBEN,Cobalt Energy,2022-03-15,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.64,train
+S0124,E025,CBEN,Cobalt Energy,2022-03-15,call,Cobalt Energy cut its full-year revenue guidance to $4.5 billion.,guidance,negative,-0.6,train
+S0125,E025,CBEN,Cobalt Energy,2022-03-15,call,"Cobalt Energy reported quarterly revenue of $7.8 billion, in line with the prior quarter.",revenue,neutral,-0.05,train
+S0126,E025,CBEN,Cobalt Energy,2022-03-15,call,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.61,train
+S0127,E026,CBEN,Cobalt Energy,2022-09-06,call,Net sales rose 7% to $3.9 billion on strong product uptake.,revenue,positive,0.78,train
+S0128,E026,CBEN,Cobalt Energy,2022-09-06,call,Gross margin expanded 2.1 percentage points to 12% on lower input costs.,margins,positive,0.53,train
+S0129,E026,CBEN,Cobalt Energy,2022-09-06,call,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,-0.04,train
+S0130,E026,CBEN,Cobalt Energy,2022-09-06,call,Cobalt Energy raised its full-year revenue guidance to $2.8 billion.,guidance,positive,0.58,train
+S0131,E026,CBEN,Cobalt Energy,2022-09-06,call,Cobalt Energy lifted its annual profit forecast above analyst estimates.,guidance,positive,0.5,train
+S0132,E026,CBEN,Cobalt Energy,2022-09-06,call,Subscriber additions topped expectations as demand picked up.,demand,positive,0.45,train
+S0133,E027,CBEN,Cobalt Energy,2023-03-01,call,"Cobalt Energy posted record revenue for the quarter, up 21% from a year earlier.",revenue,positive,0.91,train
+S0134,E027,CBEN,Cobalt Energy,2023-03-01,call,Operating margin improved to 21% as cost cuts took effect.,margins,positive,0.6,train
+S0135,E027,CBEN,Cobalt Energy,2023-03-01,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.65,train
+S0136,E027,CBEN,Cobalt Energy,2023-03-01,call,Cobalt Energy raised its full-year revenue guidance to $6.1 billion.,guidance,positive,0.78,train
+S0137,E027,CBEN,Cobalt Energy,2023-03-01,call,"Cobalt Energy saw rising demand across all regions, with unit volumes up 22%.",demand,positive,0.89,train
+S0138,E027,CBEN,Cobalt Energy,2023-03-01,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.59,train
+S0139,E028,CBEN,Cobalt Energy,2023-08-22,call,Net sales declined 8% to $4.3 billion as volumes weakened.,revenue,negative,-0.63,val
+S0140,E028,CBEN,Cobalt Energy,2023-08-22,call,Cobalt Energy warned that pricing pressure is squeezing profit margins.,margins,negative,-0.6,val
+S0141,E028,CBEN,Cobalt Energy,2023-08-22,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.85,val
+S0142,E028,CBEN,Cobalt Energy,2023-08-22,call,Management expects slower growth next quarter and lowered its outlook.,guidance,negative,-0.8,val
+S0143,E028,CBEN,Cobalt Energy,2023-08-22,call,Operating margin fell to 16% as wage and freight costs climbed.,margins,negative,-0.86,val
+S0144,E028,CBEN,Cobalt Energy,2023-08-22,call,"Cobalt Energy reported quarterly revenue of $2.5 billion, in line with the prior quarter.",revenue,neutral,-0.09,val
+S0145,E029,CBEN,Cobalt Energy,2022-05-12,news,Operating margin improved to 28% as cost cuts took effect.,margins,positive,0.68,train
+S0146,E029,CBEN,Cobalt Energy,2022-05-12,news,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.48,train
+S0147,E029,CBEN,Cobalt Energy,2022-05-12,news,Net sales rose 6% to $7.6 billion on strong product uptake.,revenue,positive,0.42,train
+S0148,E029,CBEN,Cobalt Energy,2022-05-12,news,"Customer demand remained strong, with order backlog up 17%.",demand,positive,0.61,train
+S0149,E030,CBEN,Cobalt Energy,2023-04-12,news,Net sales declined 15% to $3.1 billion as volumes weakened.,revenue,negative,-0.51,test
+S0150,E030,CBEN,Cobalt Energy,2023-04-12,news,Net income rose 4% as expenses stayed under control.,margins,positive,0.71,test
+S0151,E030,CBEN,Cobalt Energy,2023-04-12,news,Management maintained its outlook for the coming quarter.,guidance,neutral,-0.0,test
+S0152,E030,CBEN,Cobalt Energy,2023-04-12,news,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.9,test
+S0153,E031,CBEN,Cobalt Energy,2023-04-07,news,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.63,train
+S0154,E031,CBEN,Cobalt Energy,2023-04-07,news,Gross margin expanded 0.6 percentage points to 18% on lower input costs.,margins,positive,0.75,train
+S0155,E031,CBEN,Cobalt Energy,2023-04-07,news,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.49,train
+S0156,E031,CBEN,Cobalt Energy,2023-04-07,news,"Cobalt Energy reported quarterly revenue of $3.0 billion, in line with the prior quarter.",revenue,neutral,0.02,train
+S0157,E032,CBEN,Cobalt Energy,2022-06-08,news,Net income rose 16% as expenses stayed under control.,margins,positive,0.9,train
+S0158,E032,CBEN,Cobalt Energy,2022-06-08,news,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.67,train
+S0159,E032,CBEN,Cobalt Energy,2022-06-08,news,Net sales rose 13% to $8.4 billion on strong product uptake.,revenue,positive,0.43,train
+S0160,E032,CBEN,Cobalt Energy,2022-06-08,news,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,-0.09,train
+S0161,E033,SMFD,Summit Foods,2022-04-01,call,Quarterly revenue came in 0.8% below consensus.,revenue,negative,-0.55,test
+S0162,E033,SMFD,Summit Foods,2022-04-01,call,Net income dropped 20% on rising expenses and a one-time charge.,margins,negative,-0.71,test
+S0163,E033,SMFD,Summit Foods,2022-04-01,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.89,test
+S0164,E033,SMFD,Summit Foods,2022-04-01,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.95,test
+S0165,E033,SMFD,Summit Foods,2022-04-01,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.75,test
+S0166,E033,SMFD,Summit Foods,2022-04-01,call,"Summit Foods saw weaker demand in key regions, and unit volumes fell 22%.",demand,negative,-0.67,test
+S0167,E034,SMFD,Summit Foods,2022-09-22,call,"Summit Foods posted record revenue for the quarter, up 4% from a year earlier.",revenue,positive,0.87,train
+S0168,E034,SMFD,Summit Foods,2022-09-22,call,"Operating margin was 44%, little changed from the previous quarter.",margins,neutral,0.07,train
+S0169,E034,SMFD,Summit Foods,2022-09-22,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.68,train
+S0170,E034,SMFD,Summit Foods,2022-09-22,call,Summit Foods lifted its annual profit forecast above analyst estimates.,guidance,positive,0.73,train
+S0171,E034,SMFD,Summit Foods,2022-09-22,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.46,train
+S0172,E034,SMFD,Summit Foods,2022-09-22,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.72,train
+S0173,E035,SMFD,Summit Foods,2023-03-03,call,"Summit Foods reported revenue growth of 22% year over year, ahead of analyst expectations.",revenue,positive,0.66,train
+S0174,E035,SMFD,Summit Foods,2023-03-03,call,Gross margin contracted 2.6 percentage points to 17% on higher input costs.,margins,negative,-0.59,train
+S0175,E035,SMFD,Summit Foods,2023-03-03,call,"Summit Foods saw weaker demand in key regions, and unit volumes fell 5%.",demand,negative,-0.9,train
+S0176,E035,SMFD,Summit Foods,2023-03-03,call,Summit Foods raised its full-year revenue guidance to $5.5 billion.,guidance,positive,0.75,train
+S0177,E035,SMFD,Summit Foods,2023-03-03,call,"Summit Foods saw rising demand across all regions, with unit volumes up 23%.",demand,positive,0.78,train
+S0178,E035,SMFD,Summit Foods,2023-03-03,call,Summit Foods raised its full-year revenue guidance to $4.0 billion.,guidance,positive,0.64,train
+S0179,E036,SMFD,Summit Foods,2023-09-07,call,Net sales declined 16% to $5.7 billion as volumes weakened.,revenue,negative,-0.66,train
+S0180,E036,SMFD,Summit Foods,2023-09-07,call,Gross margin contracted 1.6 percentage points to 41% on higher input costs.,margins,negative,-0.47,train
+S0181,E036,SMFD,Summit Foods,2023-09-07,call,"Summit Foods saw weaker demand in key regions, and unit volumes fell 11%.",demand,negative,-0.51,train
+S0182,E036,SMFD,Summit Foods,2023-09-07,call,Summit Foods reaffirmed its full-year guidance.,guidance,neutral,-0.09,train
+S0183,E036,SMFD,Summit Foods,2023-09-07,call,Quarterly revenue came in 3.1% below consensus.,revenue,negative,-0.51,train
+S0184,E036,SMFD,Summit Foods,2023-09-07,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.65,train
+S0185,E037,SMFD,Summit Foods,2022-11-25,news,Summit Foods warned that pricing pressure is squeezing profit margins.,margins,negative,-0.88,train
+S0186,E037,SMFD,Summit Foods,2022-11-25,news,Summit Foods will report revenue figures after the market closes.,revenue,neutral,-0.06,train
+S0187,E037,SMFD,Summit Foods,2022-11-25,news,Management noted demand trends vary by region.,demand,neutral,-0.07,train
+S0188,E037,SMFD,Summit Foods,2022-11-25,news,Summit Foods trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.49,train
+S0189,E038,SMFD,Summit Foods,2023-07-03,news,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,0.0,test
+S0190,E038,SMFD,Summit Foods,2023-07-03,news,Quarterly revenue came in 1.1% below consensus.,revenue,negative,-0.51,test
+S0191,E038,SMFD,Summit Foods,2023-07-03,news,Net income dropped 15% on rising expenses and a one-time charge.,margins,negative,-0.82,test
+S0192,E038,SMFD,Summit Foods,2023-07-03,news,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.49,test
+S0193,E039,SMFD,Summit Foods,2022-06-16,news,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.69,train
+S0194,E039,SMFD,Summit Foods,2022-06-16,news,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.41,train
+S0195,E039,SMFD,Summit Foods,2022-06-16,news,"Operating margin was 25%, little changed from the previous quarter.",margins,neutral,-0.07,train
+S0196,E039,SMFD,Summit Foods,2022-06-16,news,"Summit Foods posted record revenue for the quarter, up 14% from a year earlier.",revenue,positive,0.9,train
+S0197,E040,SMFD,Summit Foods,2023-05-05,news,Summit Foods lifted its annual profit forecast above analyst estimates.,guidance,positive,0.72,train
+S0198,E040,SMFD,Summit Foods,2023-05-05,news,"Summit Foods saw rising demand across all regions, with unit volumes up 22%.",demand,positive,0.85,train
+S0199,E040,SMFD,Summit Foods,2023-05-05,news,Summit Foods said efficiency programs lifted profit margins above expectations.,margins,positive,0.66,train
+S0200,E040,SMFD,Summit Foods,2023-05-05,news,"Quarterly revenue beat consensus by 1.3%, driven by new customer wins.",revenue,positive,0.56,train
+S0201,E041,VNMT,Vantage Motors,2022-03-18,call,Vantage Motors reported its first drop in annual revenue in five years.,revenue,negative,-0.54,train
+S0202,E041,VNMT,Vantage Motors,2022-03-18,call,Operating margin fell to 32% as wage and freight costs climbed.,margins,negative,-0.62,train
+S0203,E041,VNMT,Vantage Motors,2022-03-18,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.46,train
+S0204,E041,VNMT,Vantage Motors,2022-03-18,call,Vantage Motors cut its full-year revenue guidance to $5.2 billion.,guidance,negative,-0.54,train
+S0205,E041,VNMT,Vantage Motors,2022-03-18,call,"Vantage Motors saw weaker demand in key regions, and unit volumes fell 21%.",demand,negative,-0.88,train
+S0206,E041,VNMT,Vantage Motors,2022-03-18,call,Net sales declined 3% to $9.7 billion as volumes weakened.,revenue,negative,-0.54,train
+S0207,E042,VNMT,Vantage Motors,2022-09-08,call,"Vantage Motors posted record revenue for the quarter, up 16% from a year earlier.",revenue,positive,0.87,test
+S0208,E042,VNMT,Vantage Motors,2022-09-08,call,Management discussed cost trends in its prepared remarks.,margins,neutral,-0.01,test
+S0209,E042,VNMT,Vantage Motors,2022-09-08,call,Subscriber additions topped expectations as demand picked up.,demand,positive,0.9,test
+S0210,E042,VNMT,Vantage Motors,2022-09-08,call,Vantage Motors lifted its annual profit forecast above analyst estimates.,guidance,positive,0.83,test
+S0211,E042,VNMT,Vantage Motors,2022-09-08,call,"Vantage Motors saw rising demand across all regions, with unit volumes up 23%.",demand,positive,0.72,test
+S0212,E042,VNMT,Vantage Motors,2022-09-08,call,Operating margin improved to 37% as cost cuts took effect.,margins,positive,0.5,test
+S0213,E043,VNMT,Vantage Motors,2023-03-17,call,"Quarterly revenue beat consensus by 3.4%, driven by new customer wins.",revenue,positive,0.52,train
+S0214,E043,VNMT,Vantage Motors,2023-03-17,call,"Operating margin was 19%, little changed from the previous quarter.",margins,neutral,-0.09,train
+S0215,E043,VNMT,Vantage Motors,2023-03-17,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.57,train
+S0216,E043,VNMT,Vantage Motors,2023-03-17,call,Vantage Motors raised its full-year revenue guidance to $1.6 billion.,guidance,positive,0.55,train
+S0217,E043,VNMT,Vantage Motors,2023-03-17,call,"Vantage Motors saw rising demand across all regions, with unit volumes up 14%.",demand,positive,0.65,train
+S0218,E043,VNMT,Vantage Motors,2023-03-17,call,Gross margin expanded 3.2 percentage points to 37% on lower input costs.,margins,positive,0.68,train
+S0219,E044,VNMT,Vantage Motors,2023-08-29,call,"Net sales were $6.0 billion, broadly flat versus last year.",revenue,neutral,-0.05,train
+S0220,E044,VNMT,Vantage Motors,2023-08-29,call,Gross margin contracted 3.1 percentage points to 21% on higher input costs.,margins,negative,-0.8,train
+S0221,E044,VNMT,Vantage Motors,2023-08-29,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.86,train
+S0222,E044,VNMT,Vantage Motors,2023-08-29,call,Vantage Motors trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.87,train
+S0223,E044,VNMT,Vantage Motors,2023-08-29,call,"Customer demand softened, with order backlog down 13%.",demand,negative,-0.65,train
+S0224,E044,VNMT,Vantage Motors,2023-08-29,call,Vantage Motors reported its first drop in annual revenue in five years.,revenue,negative,-0.64,train
+S0225,E045,VNMT,Vantage Motors,2023-06-09,news,"Vantage Motors reported revenue growth of 3% year over year, ahead of analyst expectations.",revenue,positive,0.78,train
+S0226,E045,VNMT,Vantage Motors,2023-06-09,news,Vantage Motors said efficiency programs lifted profit margins above expectations.,margins,positive,0.64,train
+S0227,E045,VNMT,Vantage Motors,2023-06-09,news,"Vantage Motors saw rising demand across all regions, with unit volumes up 3%.",demand,positive,0.93,train
+S0228,E045,VNMT,Vantage Motors,2023-06-09,news,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.81,train
+S0229,E046,VNMT,Vantage Motors,2022-02-24,news,Vantage Motors said gross margin was stable at 29%.,margins,neutral,0.07,val
+S0230,E046,VNMT,Vantage Motors,2022-02-24,news,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,-0.01,val
+S0231,E046,VNMT,Vantage Motors,2022-02-24,news,Vantage Motors cut its full-year revenue guidance to $4.6 billion.,guidance,negative,-0.53,val
+S0232,E046,VNMT,Vantage Motors,2022-02-24,news,"Vantage Motors revenue fell 22% year over year, missing analyst estimates.",revenue,negative,-0.41,val
+S0233,E047,VNMT,Vantage Motors,2023-06-02,news,Operating margin improved to 19% as cost cuts took effect.,margins,positive,0.88,train
+S0234,E047,VNMT,Vantage Motors,2023-06-02,news,Subscriber additions topped expectations as demand picked up.,demand,positive,0.79,train
+S0235,E047,VNMT,Vantage Motors,2023-06-02,news,Vantage Motors reported its first drop in annual revenue in five years.,revenue,negative,-0.94,train
+S0236,E047,VNMT,Vantage Motors,2023-06-02,news,Vantage Motors lifted its annual profit forecast above analyst estimates.,guidance,positive,0.53,train
+S0237,E048,VNMT,Vantage Motors,2022-08-01,news,Management expects slower growth next quarter and lowered its outlook.,guidance,negative,-0.41,train
+S0238,E048,VNMT,Vantage Motors,2022-08-01,news,Net sales declined 11% to $1.7 billion as volumes weakened.,revenue,negative,-0.51,train
+S0239,E048,VNMT,Vantage Motors,2022-08-01,news,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.88,train
+S0240,E048,VNMT,Vantage Motors,2022-08-01,news,"Operating margin was 35%, little changed from the previous quarter.",margins,neutral,-0.08,train
+S0241,E049,PNBK,Pinnacle Bank,2022-03-15,call,"Net sales were $5.7 billion, broadly flat versus last year.",revenue,neutral,0.1,test
+S0242,E049,PNBK,Pinnacle Bank,2022-03-15,call,Net income rose 6% as expenses stayed under control.,margins,positive,0.61,test
+S0243,E049,PNBK,Pinnacle Bank,2022-03-15,call,Subscriber additions topped expectations as demand picked up.,demand,positive,0.63,test
+S0244,E049,PNBK,Pinnacle Bank,2022-03-15,call,The company will provide updated guidance at its investor day.,guidance,neutral,0.07,test
+S0245,E049,PNBK,Pinnacle Bank,2022-03-15,call,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.66,test
+S0246,E049,PNBK,Pinnacle Bank,2022-03-15,call,"Customer demand remained strong, with order backlog up 17%.",demand,positive,0.58,test
+S0247,E050,PNBK,Pinnacle Bank,2022-09-05,call,"Pinnacle Bank reported revenue growth of 17% year over year, ahead of analyst expectations.",revenue,positive,0.89,train
+S0248,E050,PNBK,Pinnacle Bank,2022-09-05,call,Operating margin fell to 32% as wage and freight costs climbed.,margins,negative,-0.89,train
+S0249,E050,PNBK,Pinnacle Bank,2022-09-05,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.59,train
+S0250,E050,PNBK,Pinnacle Bank,2022-09-05,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.66,train
+S0251,E050,PNBK,Pinnacle Bank,2022-09-05,call,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,0.06,train
+S0252,E050,PNBK,Pinnacle Bank,2022-09-05,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.47,train
+S0253,E051,PNBK,Pinnacle Bank,2023-02-28,call,Quarterly revenue came in 2.0% below consensus.,revenue,negative,-0.47,val
+S0254,E051,PNBK,Pinnacle Bank,2023-02-28,call,Net income dropped 16% on rising expenses and a one-time charge.,margins,negative,-0.69,val
+S0255,E051,PNBK,Pinnacle Bank,2023-02-28,call,Management noted demand trends vary by region.,demand,neutral,0.07,val
+S0256,E051,PNBK,Pinnacle Bank,2023-02-28,call,Pinnacle Bank raised its full-year revenue guidance to $6.6 billion.,guidance,positive,0.86,val
+S0257,E051,PNBK,Pinnacle Bank,2023-02-28,call,Pinnacle Bank trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.65,val
+S0258,E051,PNBK,Pinnacle Bank,2023-02-28,call,Net income dropped 10% on rising expenses and a one-time charge.,margins,negative,-0.47,val
+S0259,E052,PNBK,Pinnacle Bank,2023-08-28,call,Net sales declined 18% to $8.5 billion as volumes weakened.,revenue,negative,-0.72,train
+S0260,E052,PNBK,Pinnacle Bank,2023-08-28,call,Net income dropped 13% on rising expenses and a one-time charge.,margins,negative,-0.84,train
+S0261,E052,PNBK,Pinnacle Bank,2023-08-28,call,"Pinnacle Bank saw weaker demand in key regions, and unit volumes fell 8%.",demand,negative,-0.73,train
+S0262,E052,PNBK,Pinnacle Bank,2023-08-28,call,Pinnacle Bank trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.6,train
+S0263,E052,PNBK,Pinnacle Bank,2023-08-28,call,Management maintained its outlook for the coming quarter.,guidance,neutral,-0.08,train
+S0264,E052,PNBK,Pinnacle Bank,2023-08-28,call,Net sales rose 7% to $7.9 billion on strong product uptake.,revenue,positive,0.78,train
+S0265,E053,PNBK,Pinnacle Bank,2022-02-14,news,"Customer demand softened, with order backlog down 11%.",demand,negative,-0.44,train
+S0266,E053,PNBK,Pinnacle Bank,2022-02-14,news,Pinnacle Bank cut its full-year revenue guidance to $9.0 billion.,guidance,negative,-0.53,train
+S0267,E053,PNBK,Pinnacle Bank,2022-02-14,news,Net sales declined 18% to $8.4 billion as volumes weakened.,revenue,negative,-0.77,train
+S0268,E053,PNBK,Pinnacle Bank,2022-02-14,news,Pinnacle Bank warned that pricing pressure is squeezing profit margins.,margins,negative,-0.66,train
+S0269,E054,PNBK,Pinnacle Bank,2022-06-06,news,"Pinnacle Bank saw weaker demand in key regions, and unit volumes fell 4%.",demand,negative,-0.94,train
+S0270,E054,PNBK,Pinnacle Bank,2022-06-06,news,Operating margin fell to 24% as wage and freight costs climbed.,margins,negative,-0.7,train
+S0271,E054,PNBK,Pinnacle Bank,2022-06-06,news,Management maintained its outlook for the coming quarter.,guidance,neutral,-0.02,train
+S0272,E054,PNBK,Pinnacle Bank,2022-06-06,news,Pinnacle Bank reported its first drop in annual revenue in five years.,revenue,negative,-0.68,train
+S0273,E055,PNBK,Pinnacle Bank,2023-11-02,news,Management noted demand trends vary by region.,demand,neutral,-0.03,train
+S0274,E055,PNBK,Pinnacle Bank,2023-11-02,news,"Net sales were $6.0 billion, broadly flat versus last year.",revenue,neutral,0.01,train
+S0275,E055,PNBK,Pinnacle Bank,2023-11-02,news,Pinnacle Bank said gross margin was stable at 25%.,margins,neutral,-0.07,train
+S0276,E055,PNBK,Pinnacle Bank,2023-11-02,news,Pinnacle Bank lifted its annual profit forecast above analyst estimates.,guidance,positive,0.61,train
+S0277,E056,PNBK,Pinnacle Bank,2023-11-14,news,Pinnacle Bank reaffirmed its full-year guidance.,guidance,neutral,0.06,test
+S0278,E056,PNBK,Pinnacle Bank,2023-11-14,news,Operating margin improved to 29% as cost cuts took effect.,margins,positive,0.46,test
+S0279,E056,PNBK,Pinnacle Bank,2023-11-14,news,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,-0.06,test
+S0280,E056,PNBK,Pinnacle Bank,2023-11-14,news,"Pinnacle Bank posted record revenue for the quarter, up 10% from a year earlier.",revenue,positive,0.92,test
+S0281,E057,ORTC,Orbit Telecom,2022-03-25,call,Net sales declined 8% to $8.9 billion as volumes weakened.,revenue,negative,-0.43,train
+S0282,E057,ORTC,Orbit Telecom,2022-03-25,call,Gross margin contracted 2.7 percentage points to 45% on higher input costs.,margins,negative,-0.79,train
+S0283,E057,ORTC,Orbit Telecom,2022-03-25,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.73,train
+S0284,E057,ORTC,Orbit Telecom,2022-03-25,call,Management maintained its outlook for the coming quarter.,guidance,neutral,-0.06,train
+S0285,E057,ORTC,Orbit Telecom,2022-03-25,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.79,train
+S0286,E057,ORTC,Orbit Telecom,2022-03-25,call,Operating margin improved to 23% as cost cuts took effect.,margins,positive,0.53,train
+S0287,E058,ORTC,Orbit Telecom,2022-09-20,call,Quarterly revenue came in 2.1% below consensus.,revenue,negative,-0.45,train
+S0288,E058,ORTC,Orbit Telecom,2022-09-20,call,Net income dropped 19% on rising expenses and a one-time charge.,margins,negative,-0.68,train
+S0289,E058,ORTC,Orbit Telecom,2022-09-20,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.77,train
+S0290,E058,ORTC,Orbit Telecom,2022-09-20,call,The company will provide updated guidance at its investor day.,guidance,neutral,-0.05,train
+S0291,E058,ORTC,Orbit Telecom,2022-09-20,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.77,train
+S0292,E058,ORTC,Orbit Telecom,2022-09-20,call,Orbit Telecom reported its first drop in annual revenue in five years.,revenue,negative,-0.62,train
+S0293,E059,ORTC,Orbit Telecom,2023-03-15,call,Orbit Telecom will report revenue figures after the market closes.,revenue,neutral,0.02,val
+S0294,E059,ORTC,Orbit Telecom,2023-03-15,call,Gross margin expanded 1.0 percentage points to 19% on lower input costs.,margins,positive,0.44,val
+S0295,E059,ORTC,Orbit Telecom,2023-03-15,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.91,val
+S0296,E059,ORTC,Orbit Telecom,2023-03-15,call,Orbit Telecom raised its full-year revenue guidance to $3.9 billion.,guidance,positive,0.6,val
+S0297,E059,ORTC,Orbit Telecom,2023-03-15,call,Orbit Telecom reported its first drop in annual revenue in five years.,revenue,negative,-0.66,val
+S0298,E059,ORTC,Orbit Telecom,2023-03-15,call,"Orbit Telecom posted record revenue for the quarter, up 18% from a year earlier.",revenue,positive,0.94,val
+S0299,E060,ORTC,Orbit Telecom,2023-08-23,call,"Orbit Telecom posted record revenue for the quarter, up 21% from a year earlier.",revenue,positive,0.81,train
+S0300,E060,ORTC,Orbit Telecom,2023-08-23,call,Operating margin fell to 32% as wage and freight costs climbed.,margins,negative,-0.55,train
+S0301,E060,ORTC,Orbit Telecom,2023-08-23,call,"Orbit Telecom saw weaker demand in key regions, and unit volumes fell 13%.",demand,negative,-0.63,train
+S0302,E060,ORTC,Orbit Telecom,2023-08-23,call,Orbit Telecom trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.54,train
+S0303,E060,ORTC,Orbit Telecom,2023-08-23,call,Orbit Telecom cut its full-year revenue guidance to $7.2 billion.,guidance,negative,-0.53,train
+S0304,E060,ORTC,Orbit Telecom,2023-08-23,call,"Net sales were $6.0 billion, broadly flat versus last year.",revenue,neutral,0.03,train
+S0305,E061,ORTC,Orbit Telecom,2022-08-03,news,Net income dropped 24% on rising expenses and a one-time charge.,margins,negative,-0.79,train
+S0306,E061,ORTC,Orbit Telecom,2022-08-03,news,Quarterly revenue came in 2.7% below consensus.,revenue,negative,-0.61,train
+S0307,E061,ORTC,Orbit Telecom,2022-08-03,news,Management maintained its outlook for the coming quarter.,guidance,neutral,0.04,train
+S0308,E061,ORTC,Orbit Telecom,2022-08-03,news,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.47,train
+S0309,E062,ORTC,Orbit Telecom,2022-07-26,news,"Customer demand remained strong, with order backlog up 8%.",demand,positive,0.6,train
+S0310,E062,ORTC,Orbit Telecom,2022-07-26,news,Orbit Telecom will report revenue figures after the market closes.,revenue,neutral,0.02,train
+S0311,E062,ORTC,Orbit Telecom,2022-07-26,news,Orbit Telecom warned that pricing pressure is squeezing profit margins.,margins,negative,-0.7,train
+S0312,E062,ORTC,Orbit Telecom,2022-07-26,news,Management expects slower growth next quarter and lowered its outlook.,guidance,negative,-0.83,train
+S0313,E063,ORTC,Orbit Telecom,2023-12-06,news,"Orbit Telecom saw weaker demand in key regions, and unit volumes fell 23%.",demand,negative,-0.85,train
+S0314,E063,ORTC,Orbit Telecom,2023-12-06,news,"Orbit Telecom revenue fell 3% year over year, missing analyst estimates.",revenue,negative,-0.93,train
+S0315,E063,ORTC,Orbit Telecom,2023-12-06,news,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.57,train
+S0316,E063,ORTC,Orbit Telecom,2023-12-06,news,Orbit Telecom said efficiency programs lifted profit margins above expectations.,margins,positive,0.4,train
+S0317,E064,ORTC,Orbit Telecom,2023-07-26,news,Net sales declined 6% to $4.6 billion as volumes weakened.,revenue,negative,-0.84,test
+S0318,E064,ORTC,Orbit Telecom,2023-07-26,news,Orbit Telecom warned that pricing pressure is squeezing profit margins.,margins,negative,-0.88,test
+S0319,E064,ORTC,Orbit Telecom,2023-07-26,news,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.73,test
+S0320,E064,ORTC,Orbit Telecom,2023-07-26,news,Management maintained its outlook for the coming quarter.,guidance,neutral,0.06,test
+S0321,E065,LMSC,Lumen Semiconductors,2022-04-08,call,Quarterly revenue came in 1.9% below consensus.,revenue,negative,-0.94,val
+S0322,E065,LMSC,Lumen Semiconductors,2022-04-08,call,Gross margin expanded 1.3 percentage points to 32% on lower input costs.,margins,positive,0.69,val
+S0323,E065,LMSC,Lumen Semiconductors,2022-04-08,call,"Lumen Semiconductors saw rising demand across all regions, with unit volumes up 21%.",demand,positive,0.89,val
+S0324,E065,LMSC,Lumen Semiconductors,2022-04-08,call,The company will provide updated guidance at its investor day.,guidance,neutral,-0.08,val
+S0325,E065,LMSC,Lumen Semiconductors,2022-04-08,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.81,val
+S0326,E065,LMSC,Lumen Semiconductors,2022-04-08,call,Lumen Semiconductors raised its full-year revenue guidance to $9.5 billion.,guidance,positive,0.51,val
+S0327,E066,LMSC,Lumen Semiconductors,2022-09-19,call,Quarterly revenue came in 1.4% below consensus.,revenue,negative,-0.58,train
+S0328,E066,LMSC,Lumen Semiconductors,2022-09-19,call,Operating margin fell to 24% as wage and freight costs climbed.,margins,negative,-0.52,train
+S0329,E066,LMSC,Lumen Semiconductors,2022-09-19,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.61,train
+S0330,E066,LMSC,Lumen Semiconductors,2022-09-19,call,Lumen Semiconductors reaffirmed its full-year guidance.,guidance,neutral,-0.02,train
+S0331,E066,LMSC,Lumen Semiconductors,2022-09-19,call,Subscriber growth slowed sharply as demand cooled.,demand,negative,-0.43,train
+S0332,E066,LMSC,Lumen Semiconductors,2022-09-19,call,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,0.09,train
+S0333,E067,LMSC,Lumen Semiconductors,2023-03-08,call,"Lumen Semiconductors posted record revenue for the quarter, up 8% from a year earlier.",revenue,positive,0.69,train
+S0334,E067,LMSC,Lumen Semiconductors,2023-03-08,call,Operating margin fell to 15% as wage and freight costs climbed.,margins,negative,-0.95,train
+S0335,E067,LMSC,Lumen Semiconductors,2023-03-08,call,Lumen Semiconductors said customer demand was consistent with seasonal patterns.,demand,neutral,0.07,train
+S0336,E067,LMSC,Lumen Semiconductors,2023-03-08,call,Lumen Semiconductors trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.82,train
+S0337,E067,LMSC,Lumen Semiconductors,2023-03-08,call,Lumen Semiconductors reported its first drop in annual revenue in five years.,revenue,negative,-0.58,train
+S0338,E067,LMSC,Lumen Semiconductors,2023-03-08,call,Net sales declined 23% to $5.3 billion as volumes weakened.,revenue,negative,-0.82,train
+S0339,E068,LMSC,Lumen Semiconductors,2023-09-04,call,"Net sales were $6.1 billion, broadly flat versus last year.",revenue,neutral,-0.1,train
+S0340,E068,LMSC,Lumen Semiconductors,2023-09-04,call,Operating margin improved to 21% as cost cuts took effect.,margins,positive,0.43,train
+S0341,E068,LMSC,Lumen Semiconductors,2023-09-04,call,"Lumen Semiconductors saw weaker demand in key regions, and unit volumes fell 6%.",demand,negative,-0.71,train
+S0342,E068,LMSC,Lumen Semiconductors,2023-09-04,call,Lumen Semiconductors trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.72,train
+S0343,E068,LMSC,Lumen Semiconductors,2023-09-04,call,Management said customers are delaying purchases amid economic uncertainty.,demand,negative,-0.89,train
+S0344,E068,LMSC,Lumen Semiconductors,2023-09-04,call,Management maintained its outlook for the coming quarter.,guidance,neutral,0.03,train
+S0345,E069,LMSC,Lumen Semiconductors,2022-02-15,news,Operating margin fell to 22% as wage and freight costs climbed.,margins,negative,-0.95,test
+S0346,E069,LMSC,Lumen Semiconductors,2022-02-15,news,Management noted demand trends vary by region.,demand,neutral,-0.04,test
+S0347,E069,LMSC,Lumen Semiconductors,2022-02-15,news,Net sales rose 3% to $2.4 billion on strong product uptake.,revenue,positive,0.63,test
+S0348,E069,LMSC,Lumen Semiconductors,2022-02-15,news,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.53,test
+S0349,E070,LMSC,Lumen Semiconductors,2022-02-18,news,"Operating margin was 40%, little changed from the previous quarter.",margins,neutral,-0.08,val
+S0350,E070,LMSC,Lumen Semiconductors,2022-02-18,news,Management noted demand trends vary by region.,demand,neutral,0.05,val
+S0351,E070,LMSC,Lumen Semiconductors,2022-02-18,news,Net sales rose 3% to $8.2 billion on strong product uptake.,revenue,positive,0.8,val
+S0352,E070,LMSC,Lumen Semiconductors,2022-02-18,news,Lumen Semiconductors raised its full-year revenue guidance to $2.9 billion.,guidance,positive,0.81,val
+S0353,E071,LMSC,Lumen Semiconductors,2023-01-24,news,"Customer demand remained strong, with order backlog up 6%.",demand,positive,0.65,train
+S0354,E071,LMSC,Lumen Semiconductors,2023-01-24,news,"Lumen Semiconductors posted record revenue for the quarter, up 10% from a year earlier.",revenue,positive,0.63,train
+S0355,E071,LMSC,Lumen Semiconductors,2023-01-24,news,Gross margin expanded 2.1 percentage points to 29% on lower input costs.,margins,positive,0.41,train
+S0356,E071,LMSC,Lumen Semiconductors,2023-01-24,news,Lumen Semiconductors lifted its annual profit forecast above analyst estimates.,guidance,positive,0.76,train
+S0357,E072,LMSC,Lumen Semiconductors,2023-12-21,news,Quarterly revenue came in 1.8% below consensus.,revenue,negative,-0.58,train
+S0358,E072,LMSC,Lumen Semiconductors,2023-12-21,news,Gross margin contracted 1.7 percentage points to 14% on higher input costs.,margins,negative,-0.6,train
+S0359,E072,LMSC,Lumen Semiconductors,2023-12-21,news,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.58,train
+S0360,E072,LMSC,Lumen Semiconductors,2023-12-21,news,Order volumes were roughly unchanged from the prior quarter.,demand,neutral,-0.05,train
+S0361,E073,GFLG,Greenfield Logistics,2022-03-23,call,"Greenfield Logistics reported revenue growth of 4% year over year, ahead of analyst expectations.",revenue,positive,0.7,train
+S0362,E073,GFLG,Greenfield Logistics,2022-03-23,call,Operating margin fell to 38% as wage and freight costs climbed.,margins,negative,-0.68,train
+S0363,E073,GFLG,Greenfield Logistics,2022-03-23,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.85,train
+S0364,E073,GFLG,Greenfield Logistics,2022-03-23,call,Greenfield Logistics trimmed its annual profit forecast below analyst estimates.,guidance,negative,-0.55,train
+S0365,E073,GFLG,Greenfield Logistics,2022-03-23,call,Greenfield Logistics warned that pricing pressure is squeezing profit margins.,margins,negative,-0.69,train
+S0366,E073,GFLG,Greenfield Logistics,2022-03-23,call,"The company warned of a weaker year ahead, citing macro headwinds.",guidance,negative,-0.41,train
+S0367,E074,GFLG,Greenfield Logistics,2022-09-13,call,Net sales rose 17% to $7.9 billion on strong product uptake.,revenue,positive,0.51,val
+S0368,E074,GFLG,Greenfield Logistics,2022-09-13,call,Operating margin improved to 33% as cost cuts took effect.,margins,positive,0.6,val
+S0369,E074,GFLG,Greenfield Logistics,2022-09-13,call,Subscriber additions topped expectations as demand picked up.,demand,positive,0.71,val
+S0370,E074,GFLG,Greenfield Logistics,2022-09-13,call,Greenfield Logistics raised its full-year revenue guidance to $2.9 billion.,guidance,positive,0.66,val
+S0371,E074,GFLG,Greenfield Logistics,2022-09-13,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.83,val
+S0372,E074,GFLG,Greenfield Logistics,2022-09-13,call,Greenfield Logistics lifted its annual profit forecast above analyst estimates.,guidance,positive,0.87,val
+S0373,E075,GFLG,Greenfield Logistics,2023-03-07,call,"Greenfield Logistics revenue fell 11% year over year, missing analyst estimates.",revenue,negative,-0.79,train
+S0374,E075,GFLG,Greenfield Logistics,2023-03-07,call,Greenfield Logistics warned that pricing pressure is squeezing profit margins.,margins,negative,-0.7,train
+S0375,E075,GFLG,Greenfield Logistics,2023-03-07,call,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.58,train
+S0376,E075,GFLG,Greenfield Logistics,2023-03-07,call,"The company guided higher for the coming year, citing a solid pipeline.",guidance,positive,0.87,train
+S0377,E075,GFLG,Greenfield Logistics,2023-03-07,call,Management noted demand trends vary by region.,demand,neutral,0.04,train
+S0378,E075,GFLG,Greenfield Logistics,2023-03-07,call,Operating margin fell to 37% as wage and freight costs climbed.,margins,negative,-0.74,train
+S0379,E076,GFLG,Greenfield Logistics,2023-09-13,call,"Quarterly revenue beat consensus by 2.9%, driven by new customer wins.",revenue,positive,0.91,train
+S0380,E076,GFLG,Greenfield Logistics,2023-09-13,call,Greenfield Logistics said efficiency programs lifted profit margins above expectations.,margins,positive,0.72,train
+S0381,E076,GFLG,Greenfield Logistics,2023-09-13,call,Subscriber additions topped expectations as demand picked up.,demand,positive,0.86,train
+S0382,E076,GFLG,Greenfield Logistics,2023-09-13,call,The company will provide updated guidance at its investor day.,guidance,neutral,0.04,train
+S0383,E076,GFLG,Greenfield Logistics,2023-09-13,call,Gross margin expanded 3.1 percentage points to 34% on lower input costs.,margins,positive,0.65,train
+S0384,E076,GFLG,Greenfield Logistics,2023-09-13,call,Greenfield Logistics lifted its annual profit forecast above analyst estimates.,guidance,positive,0.69,train
+S0385,E077,GFLG,Greenfield Logistics,2023-02-02,news,"Greenfield Logistics saw rising demand across all regions, with unit volumes up 15%.",demand,positive,0.61,train
+S0386,E077,GFLG,Greenfield Logistics,2023-02-02,news,The company will provide updated guidance at its investor day.,guidance,neutral,-0.04,train
+S0387,E077,GFLG,Greenfield Logistics,2023-02-02,news,Gross margin expanded 0.6 percentage points to 23% on lower input costs.,margins,positive,0.65,train
+S0388,E077,GFLG,Greenfield Logistics,2023-02-02,news,"Greenfield Logistics reported revenue growth of 25% year over year, ahead of analyst expectations.",revenue,positive,0.62,train
+S0389,E078,GFLG,Greenfield Logistics,2022-02-02,news,Greenfield Logistics said efficiency programs lifted profit margins above expectations.,margins,positive,0.55,train
+S0390,E078,GFLG,Greenfield Logistics,2022-02-02,news,Greenfield Logistics lifted its annual profit forecast above analyst estimates.,guidance,positive,0.6,train
+S0391,E078,GFLG,Greenfield Logistics,2022-02-02,news,"Customer demand softened, with order backlog down 25%.",demand,negative,-0.75,train
+S0392,E078,GFLG,Greenfield Logistics,2022-02-02,news,"Greenfield Logistics reported quarterly revenue of $1.7 billion, in line with the prior quarter.",revenue,neutral,0.01,train
+S0393,E079,GFLG,Greenfield Logistics,2023-10-10,news,"Greenfield Logistics posted record revenue for the quarter, up 19% from a year earlier.",revenue,positive,0.59,train
+S0394,E079,GFLG,Greenfield Logistics,2023-10-10,news,Subscriber additions topped expectations as demand picked up.,demand,positive,0.42,train
+S0395,E079,GFLG,Greenfield Logistics,2023-10-10,news,Management expects stronger growth next quarter and lifted its outlook.,guidance,positive,0.67,train
+S0396,E079,GFLG,Greenfield Logistics,2023-10-10,news,Gross margin contracted 1.9 percentage points to 34% on higher input costs.,margins,negative,-0.55,train
+S0397,E080,GFLG,Greenfield Logistics,2023-12-12,news,"Greenfield Logistics posted record revenue for the quarter, up 6% from a year earlier.",revenue,positive,0.5,train
+S0398,E080,GFLG,Greenfield Logistics,2023-12-12,news,"Operating margin was 43%, little changed from the previous quarter.",margins,neutral,0.08,train
+S0399,E080,GFLG,Greenfield Logistics,2023-12-12,news,Management described customer traffic as healthy and orders as accelerating.,demand,positive,0.69,train
+S0400,E080,GFLG,Greenfield Logistics,2023-12-12,news,Greenfield Logistics reaffirmed its full-year guidance.,guidance,neutral,-0.08,train
